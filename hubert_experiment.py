@@ -57,7 +57,7 @@ MODEL_CONFIG = {
 PRETRAIN_CONFIG = {
     # Training
     "batch_size": 1024,
-    "epochs": 1,
+    "epochs": 10,
     "learning_rate": 0.001,
     "early_stopping_patience": 3,
     "early_stopping_min_delta": 0.001,
@@ -84,7 +84,7 @@ PRETRAIN_CONFIG = {
 FINETUNE_CONFIG = {
     # Training
     "batch_size": 1024,
-    "epochs": 1,
+    "epochs": 10,
     "learning_rate": 0.001,
     "early_stopping_patience": 2,
     "early_stopping_min_delta": 0.001,
@@ -116,7 +116,7 @@ FINETUNE_CONFIG = {
 DOWNSTREAM_CONFIG = {
     # Training
     "batch_size": 15000,
-    "epochs": 1,
+    "epochs": 10,
     "learning_rate": 0.001,
     "early_stopping_patience": 2,
     "early_stopping_min_delta": 0.001,
